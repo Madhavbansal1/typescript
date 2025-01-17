@@ -27,3 +27,21 @@ let loginUser = (email: string,passwrod: number, ispaid: boolean = false) =>{
 }
 
 loginUser("m@gmail.com", 123456); // User logged in successfully
+
+
+
+
+// how to control the return type of a function ;;
+function addTwo2(num: number){
+    //return num + 2; 
+    return "Hello";
+}
+
+// upper function have a problem that it return string instead of number
+
+
+function addTwo3(num: number): number{
+    return num + 2; 
+    // return "Hello";
+}
+// aboove is the silution for that problem that it return string instead of number
