@@ -17,7 +17,7 @@ function createCourse():{name: string, price: number}{
 
 // let discuss a werid behaviour 
 const obj1 = {name: "john", age: 30, isActive: true, address: "new york"}
-createUser({name: "john", age: 30, isActive: true, address: "new york"});
+//createUser({name: "john", age: 30, isActive: true, address: "new york"});
 createUser(obj1);
 // line 20 will give an error because we are passing an extra property in the object
 // but line 21 will not give an error because we are passing the object directly
